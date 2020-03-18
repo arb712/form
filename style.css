@@ -1,15 +1,52 @@
-*{
 
+.container-kepala{
+    background-color:#476b6b; 
+    color: whitesmoke;
+    text-align: center;
+    height: 130px;
+    margin-left: 130px;
+    margin-right: 130px;
 }
-.gambar{
-    margin-left: 750px;
+
+.container-kepala h4{
+    padding-top: 50px;
 }
-.kurung{
-    position: relative;
-    top: -280px;
+.grid-item1{
+    background-color: whitesmoke;
+    color: black;
 }
-.kurung2{
-    position: relative;
-    top: -230px;
-    margin-left: 750px;
+.subung{
+    padding-top: 1px;
+}
+.grid-container{
+    display: inline-flex;
+    grid-template-columns: auto auto;
+    background-color: whitesmoke !important;
+    margin-left: 130px;
+    margin-right: 130px;
+    width: 1005px;
+    justify-content: center;
+}
+.bintang{
+    color: red;
+    font-size: 12px;
+}
+.grid-item2{
+    padding-top: 60px;
+}
+.grid-item2-3{
+    padding-top: 16px;
+}
+.grid-item1-5{
+    padding-top: 15px;
+}
+.gambarg{
+    width: 70px;
+    height: 40px;
+}
+.suit{
+    margin-left: 5px;
+}
+.bsub{
+    margin-left: 5px;
 }

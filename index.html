@@ -9,59 +9,106 @@
 </head>
 
 <body>
-    <div>
-        <img src="./download.jpeg" alt="Senyum" class="gambar">
+
+    <div class="container-kepala">
+        <h4>Watch your favorite TV shows anytime,anywhere!</h4>
     </div>
-    <div class="kurung">
-        <div>
-            <td><label for="name">Nama</label></td>
-            <input type="text" name="name" id="name" style="size: 12px;">
+    <form action="action" method="post">
+        <div class="grid-container">
+
+            <div class="grid-item grid-item1">
+                <div class="subung">
+                    <strong>
+                        <h3>1.Personal Information.</h3>
+                    </strong>
+                </div>
+                <div class="grid-item grid-item1-2">
+                    <div>
+                        <label for="text" class="bintang">*</label>
+                        <label for="name"> First Name :</label></br>
+                        <input type="text" name="name" id="name">
+                    </div>
+                </div>
+                <br>
+                <div class="grid-item grid-item1-3">
+                    <div>
+                        <label for="text" class="bintang">*</label>
+                        <label for="gender">Gender</label><br>
+                        <input type="radio" name="Gender" id="Male">
+                        <label for="Male">Male</label>
+                        <input type="radio" name="Gender" id="Female">
+                        <label for="Female">Female</label>
+                        <input type="radio" name="Gender" id="Other">
+                        <label for="Other">Other</label>
+                    </div>
+                </div>
+
+                <div class="subung">
+                    <strong>
+                        <h3>2.Contact Information</h3>
+                    </strong>
+                </div>
+
+                <div class="grid-item grid-item1-4">
+                    <label for="text" class="bintang">*</label>
+                    <label for="email">Email address</label><br>
+                    <input type="email" name="" id="">
+                </div>
+
+                <div class="grid-item grid-item1-5">
+                    <label for="text" class="bintang">*</label>
+                    <label for="nomor">Telephone</label><br>
+                    <input type="tel" name="nomorhp" id="nomor" required>
+                </div>
+                <strong>
+                    <h3>3.Interest</h3>
+                </strong>
+                <div>
+                    <label for="text" class="bintang">*</label>
+                    <label for="nomor">Pick your favorite shows</label><br>
+                </div>
+                <br>
+                <div class="gambar">
+                    <img src="./download.jpeg" alt="Senyum" class="gambarg">
+                    <img src="./download.jpeg" alt="Senyum" class="gambarg">
+                    <img src="./download.jpeg" alt="Senyum" class="gambarg">
+                </div><br>
+                <div class="grid-item grid-item1-6">
+                    <input type="text" name="suit" id="suit" class="suit">
+                </div>
+                <br>
+                <div class="grid-item grid-item1-7">
+                    <input type="submit" value="Submit" class="bsub">
+                </div>
+            </div>
+            <div class="grid-item grid-item2">
+                <div class="grid item grid-item2-1">
+                    <label for="text" class="bintang">*</label>
+                    <label for="name">Last Name</label><br>
+                    <input type="text" name="name" id="name">
+                </div>
+                <br>
+                <div class="grid-item grid-item2-2">
+                    <label for="text" class="bintang">*</label>
+                    <label for="date">Date of Birth</label><br>
+                    <input type="date" name="date" id="date">
+                </div>
+                <br><br>
+                <div class="grid-item grid-item2-3">
+                    <label for="text" class="bintang">*</label>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password">
+                </div>
+                <br>
+                <div class="grid-item grid-item2-4">
+                    <label for="Mobile">Mobile<label>
+                            <label for="text" class="bintang">(optional)</label><br>
+                            <input type="tel" name="nomorhp" id="Mobile" required>
+                </div>
+
+            </div>
         </div>
-        <br>
-        <div>
-            <label for="gender">Gender</label>
-            <select name="gender" id="gender" style="size: 12px;">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-            </select>
-        </div>
-        <br>
-        <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-        </div>
-        <br>
-        <div>
-            <label for="email2">Type it again</label>
-            <input type="email" name="email" id="email">
-        </div>
-        <br>
-        <div>
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
-        </div>
-        <br>
-        <div>
-            <label for="Date-birth">Date of Birth</label>
-            <input type="date" name="date" id="date">
-        </div>
-        <br>
-        <div>
-            <label for="email">Email id again</label>
-            <input type="number" name="email" id="number">
-        </div>
-    </div>
-    <div class="kurung2">
-        <div>
-            <label for="number">Phone no</label>
-            <input type="number" name="number" id="number">
-        </div>
-        <br>
-        <div>
-            <label for="mobile">Mobile no</label>
-            <input type="number" name="number" id="number">
-        </div>
-    </div>
+    </form>
 </body>
 
 </html>
